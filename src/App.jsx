@@ -1,12 +1,11 @@
-import React from 'react';
-import Magic from './Magic';
+import React from "react";
+import Video from "./Video";
 import './App.css';
-
 
 function App() {
   return (
     <div>
-      <Magic/>
+      <Video/>
     </div>
   );
 }
