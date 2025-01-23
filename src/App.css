@@ -1,83 +1,57 @@
+/* General body styles */
 body {
   font-family: Arial, sans-serif;
+  background-color:black;
   margin: 0;
   padding: 0;
-  background-image: url('beautiful-composition-different-books.jpg');
-  background-size: cover;
-  background-position:left;
-  color:rgb(31, 13, 1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: chartreuse;
+}
+
+/* Centered container styles */
+div {
+  background:black;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
   text-align: center;
 }
 
-.container {
-  background:burlywood;
-  padding:  20px ;
-  border-radius: 10px;
-  margin: 50px 100px;
-  width: 90%;
-  max-width: 400px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-}
-
-h1 {
-  font-size: 2rem;
-  margin-bottom: 20px;
-}
-
+/* Input box styles */
 input[type="text"] {
-  width: 70%;
-  padding: 50px;
-  border: 1px solid pink;
-  border-radius: 5px;
-  margin-bottom: 10px;
-  background-color: black;
-  color: pink;
+  padding: 10px;
+  width: 100%;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 16px;
 }
 
+/* Button styles */
 button {
-  padding: 10px 15px;
+  padding: 10px 20px;
+  margin: 5px;
   border: none;
-  background-color: chocolate;
-  color: black;
-  border-radius: 5px;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: #fff;
+  font-size: 16px;
   cursor: pointer;
-  font-weight: bold;
+  transition: background-color 0.3s ease;
 }
 
 button:hover {
-  background-color: black;
-  color: pink;
-  border: 1px solid pink;
+  background-color: #0056b3;
 }
 
-ul {
-  list-style: none;
-  padding: 0;
-  margin-top: 20px;
-}
-
-li {
-  background-color: black;
-  color: pink;
-  padding: 10px;
-  border-radius: 5px;
-  margin-bottom: 10px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.deleteBtn {
-  background-color: pink;
-  color: black;
-  border: none;
-  border-radius: 5px;
-  padding: 5px 10px;
-  cursor: pointer;
-}
-
-.deleteBtn:hover {
-  background-color: black;
-  color: pink;
-  border: 1px solid pink;
+/* Special style for "Time’s Up!" message */
+span {
+  font-size: 24px;
+  font-weight: bold;
+  color: red;
 }
