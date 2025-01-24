@@ -3,10 +3,10 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Navbar from './Navbar';
 import Banner from './Banner';
 import Row from './Row';
-import SignUp from './Signup';  // Assuming SignUp is a separate component
-import SignIn from './Signin';  // Assuming SignIn is a separate component
+import SignUp from './Signup';  
+import SignIn from './Signin';  
 
-// Static movie data
+
 const movieData = {
   netflixOriginals: [
     { id: 1, title: 'Stranger Things', poster: 'https://th.bing.com/th/id/R.5ced740212ba4b7404cd633b011f682b?rik=RanCvfApfTEzmA&riu=http%3a%2f%2fwww.kylelambert.com%2fgallery%2fstranger-things-season-4-vol-1-poster%2fimages%2fstranger-things-4-poster-by-kyle-lambert.jpg&ehk=aqvBltY4Z5%2fNLJKhkn17%2fhsgwBPp%2bRLLEpheUPM%2bDSE%3d&risl=&pid=ImgRaw&r=06' },

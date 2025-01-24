@@ -1,6 +1,6 @@
-/* Make navbar fixed at the top */
+
 .navbar {
-  position: fixed;  /* Keep navbar at the top */
+  position: fixed;  
   top: 0;
   left: 0;
   right: 0;
@@ -9,11 +9,10 @@
   align-items: center;
   justify-content: space-between;
   padding: 10px 20px;
-  background-color: rgba(0, 0, 0, 0.8);  /* Semi-transparent black background */
+  background-color: rgba(0, 0, 0, 0.8); 
   color: white;
-  z-index: 1000;  /* Ensure it's on top of other elements */
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);  /* Optional: adds a shadow */
-}
+  z-index: 1000; 
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5); } 
 
 /* Logo Styling */
 .navbar_logo {
@@ -36,7 +35,7 @@
   font-size: 14px;
 }
 
-/* Right Section Styling (for buttons and avatar) */
+
 .navbar_right {
   display:flex;
   align-items: center;
@@ -65,10 +64,10 @@
   margin-right:50px;
 }
 
-/* Add padding to body content to avoid overlap */
+
 body {
   margin: 0;
-  padding-top: 200px;  /* Adjust based on navbar height */
+  padding-top: 200px;  
   font-family: Arial, sans-serif;
   background: black;
   background-size: cover;
